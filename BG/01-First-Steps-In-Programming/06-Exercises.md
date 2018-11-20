@@ -16,10 +16,10 @@
         Console.WriteLine(...);
     [/code-editor]
 
-    [code-task title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
+    [task-description title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
         Забележка: **не е разрешено да се пресметне стойността предварително** (например с Windows Calculator).
     [/task-description]
-[/task]
+[/code-task]
 
 Забележка: **не е разрешено да се пресметне стойността предварително** (например с Windows Calculator).
 
@@ -105,10 +105,10 @@
         …
     [/code-editor]
 
-    [code-task title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
+    [task-description title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
         Опитайте да **подобрите решението**, така че да няма много повтарящи се команди. Може ли това да стане с **`for`** цикъл. Успяхте ли да намерите умно решение (например с цикъл) на предната задача? При тази задача може да се ползва нещо подобно, но малко по-сложно (два цикъла един в друг). Ако не успеете, няма проблем, ще учим цикли след няколко глави и ще си спомните за тази задача тогава.
     [/task-description]
-[/task]
+[/code-task]
 
 ## Насоки и подсказки
 
@@ -140,10 +140,10 @@ Console.WriteLine("**");
         // TODO: Calculate and print the area
     [/code-editor]
 
-    [code-task title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
+    [task-description title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
         Допишете програмата, за да пресмята лицето на правоъгълника и да го отпечата. Използвайте познатата ни вече команда **`Console.WriteLine()`** и й подайте в скобите произведението на числата **a** и **b**. В програмирането умножението се извършва с оператора **`*`**.
     [/task-description]
-[/task]
+[/code-task]
 
 ## Примерен вход и изход
 
@@ -188,10 +188,10 @@ Console.WriteLine("**");
         // TODO: Draw square
     [/code-editor]
 
-    [code-task title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
+    [task-description title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
          Да се допише програмата, за да отпечатва квадрат, съставен от звездички. Може да се наложи да се използват **`for`** цикли. Потърсете информация в Интернет.
     [/task-description]
-[/task]
+[/code-task]
 
 ## Примерен вход и изход
 
