@@ -9,9 +9,9 @@
 
 Да се напише конзолна C# програма, която **пресмята** и **отпечатва** стойността на следния числен израз:
 
-<p align="center"> (3522 + 52353) * 23 - (2336 * 501 + 23432 - 6743) * 3 </p>
+(3522 + 52353) * 23 - (2336 * 501 + 23432 - 6743) * 3
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 Console.WriteLine(...);
 [/code-editor]
@@ -19,9 +19,6 @@ Console.WriteLine(...);
 [task-description]
 Забележка: **не е разрешено да се пресметне стойността предварително** (например с Windows Calculator).
 [/task-description]
-
-[code-io /]
-
 [/code-task]
 
 Забележка: **не е разрешено да се пресметне стойността предварително** (например с Windows Calculator).
