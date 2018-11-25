@@ -16,9 +16,10 @@
         Console.WriteLine(...);
     [/code-editor]
 
-    [task-description title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput-description]
+    [task-description]
         Забележка: **не е разрешено да се пресметне стойността предварително** (например с Windows Calculator).
     [/task-description]
+
     [code-io /]
 [/code-task]
 
