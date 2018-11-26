@@ -1,11 +1,22 @@
 [slide]
 # Problem: Change Tiles
 
+[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code"]]  
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 **The tiles** on the ground in front of an apartment building **need changing**. The ground has a **square shape with side N metres**. The tiles are **wide "W" metres** and **long "L" metres**. There is one bench on the ground with **width M metres and length O metres**. The tiles under it are not necessary to be replaced. Each tile is replaced for **0.2 minutes**.
 
 Write a program that **reads the size of the ground, the tiles and the bench from the console**, and calculates how many tiles are necessary to cover the ground and **the total time for replacing the tiles**.
 
 **Example: ground with size 20 m.** has **аrea 400 sq.m.**. **A bench** that is **1 m.** wide and **2 m.** long, has area of **2 sq.m.**. **One tile** is **5 m. wide, 4 m. long** and has **area of 20 sq.m.**. The space that needs to be covered is **400 – 2 = 398 sq.m.**. **398 / 20 = 19.90 tiles** are necessary. The **time** needed is **19.90 * 0.2 = 3.98 minutes.******
+[/task-description]
+
+[code-io /]
+[/code-task]		
+
 
 ## Input Data
 
@@ -20,17 +31,6 @@ Write a program that **reads the size of the ground, the tiles and the bench fro
 ## Output Data
 
 Print on the console **two numbers**: **number of necessary tiles** for the repair and the **total time for changing them**, each on a new line.
-
-[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code"]]  
-
-[code-editor language=csharp]
-[/code-editor]
-
-[task-description]
-[/task-description]
-
-[code-io /]
-[/code-task]		
 
 ## Sample Input and Output
 

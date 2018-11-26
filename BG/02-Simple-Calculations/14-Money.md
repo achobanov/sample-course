@@ -1,6 +1,12 @@
 [slide]
 # Problem: Money
 
+[code-task title="Money" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 Some time ago, **Pesho bought himself bitcoins**. Now, he is going on a tour in Europe and **he needs euro**. Apart from bitcoins, he has **Chinese yuan** as well. Pesho wants to **exchange his money in euro** for the tour. Write a program that calculates **how much euro he can buy, depending on the following exchange rates**:  
 - **1 bitcoin = 1168 levs.**
 - **1 Chinese yuan = 0.15 dollars.**
@@ -8,6 +14,11 @@ Some time ago, **Pesho bought himself bitcoins**. Now, he is going on a tour in 
 - **1 euro = 1.95 levs.**
 
 The exchange office has **commission from 0 to 5 percent from the final sum in euro**.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Input Data
 
@@ -19,17 +30,6 @@ Three numbers are read from the console:
 ## Output Data
 
 Print one number on the console - **the result of the exchange of the currencies**. Rounding is not necessary.
-
-[code-task title="Money" executionStrategy="csharp-dot-net-core-code"]
-
-[code-editor language=csharp]
-[/code-editor]
-
-[task-description]
-[/task-description]
-
-[code-io /]
-[/code-task]
 
 ## Sample Input and Output
 

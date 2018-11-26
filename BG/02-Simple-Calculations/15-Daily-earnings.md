@@ -1,7 +1,18 @@
 [slide]
 # Problem: Daily Earnings
 
+[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 Ivan is a programmer in an **American company** and he **works** at home **approximately N days per month** by earning **approximately M dollars per day**. At the end of the year, Ivan **receives a bonus**, which **equals 2.5 of his monthly salaries. 25% of his annual salary goes for taxes**. Write a program that calculates **how much are Ivan' s net average earnings in lev per day**, as he spends them in Bulgaria. It is accepted that **one year has exactly 365 days. The exchange rate of dollar** to lev will be **read from the console**.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Input Data
 
@@ -13,15 +24,6 @@ Ivan is a programmer in an **American company** and he **works** at home **appro
 ## Output Data
 
 Print **one number** on the console - **the daily earnings in lev**. The result will be **rounded to the second decimal point**.
-
-[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code"]
-
-[code-editor language=csharp]
-[/code-editor]
-
-[task-description]
-[/task-description]
-[/code-task]
 
 ## Sample Input and Output
 

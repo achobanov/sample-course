@@ -1,7 +1,18 @@
 [slide]
 # Problem: Vegetable Market
 
+[code-task title="Vegetable Market" executionStrategy="csharp-dot-net-core-code"]  
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 A gardener is selling his harvest on the vegetable market. He is selling **vegetables for N levs per kilogram** and **fruits for M levs per kilogram**. Write a program that **calculates the earnings of the harvest in euro** (if **one euro** equals **1.94 lv.**).
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Input Data
 
@@ -17,18 +28,6 @@ A gardener is selling his harvest on the vegetable market. He is selling **veget
 ## Output Data
 
 Print on the console **one floating-point number: the earnings of all fruits and vegetables in euro**.
-
-[code-task title="Vegetable Market" executionStrategy="csharp-dot-net-core-code"]  
-
-[code-editor language=csharp]
-[/code-editor]
-
-[task-description]
-[/task-description]
-
-[code-io /]
-
-[/code-task]
 
 ## Sample Input and Output
 

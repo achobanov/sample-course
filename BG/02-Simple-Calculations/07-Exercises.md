@@ -342,13 +342,13 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: triangle area
 
-Write a program that reads from the console **a side and a height of a triangle** and calculates its area. Use the **formula** for triangle area: **area = a * h / 2**. Round the result to **2 digits after the decimal separator using `Math.Round(area, 2)**.
-
 [code-task title="Triangle area" executionStrategy="csharp-dot-net-core-code"]
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
+Write a program that reads from the console **a side and a height of a triangle** and calculates its area. Use the **formula** for triangle area: **area = a * h / 2**. Round the result to **2 digits after the decimal separator using `Math.Round(area, 2)**.
+
 Use the **formula** for triangle area: **area = a * h / 2**.
 [/task-description]
 
@@ -372,14 +372,14 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from degrees on °C to degrees on °F
 
-Write a program that reads **degrees on Celsius scale** (°C) and converts them to **degrees on Fahrenheit** (°F). Look on the Internet for a proper [anchor href=http://bfy.tw/3rGh]formula[/anchor] to do the calculations. Round the result to **2 digits after the decimal separator**. Below are a few examples.
-
 [code-task title="Console converter - from degrees on °C to degrees on °F" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
+Write a program that reads **degrees on Celsius scale** (°C) and converts them to **degrees on Fahrenheit** (°F). Look on the Internet for a proper [anchor href=http://bfy.tw/3rGh]formula[/anchor] to do the calculations. Round the result to **2 digits after the decimal separator**. Below are a few examples.
+
 Use the **formula** °F = °C × 1,8 + 32
 [/task-description]
 
@@ -404,15 +404,16 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from radians to degrees
 
-Write a program, that reads **an angle in [anchor href=https://en.wikipedia.org/wiki/Radian]radians[/anchor]** (`rad`) and converts it to **[anchor href=https://en.wikipedia.org/wiki/Degree_(angle)]degrees[/anchor]** (`deg`). Look for a proper formula on the Internet. The number **π** in C# programs is available through `Math.PI`. Round the result to the nearest whole number using the `Math.Round(…)` method.
-
 [code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
-  The number **π** in C# programs is available through `Math.PI`.
+
+Write a program, that reads **an angle in [anchor href=https://en.wikipedia.org/wiki/Radian]radians[/anchor]** (`rad`) and converts it to **[anchor href=https://en.wikipedia.org/wiki/Degree_(angle)]degrees[/anchor]** (`deg`). Look for a proper formula on the Internet. The number **π** in C# programs is available through `Math.PI`. Round the result to the nearest whole number using the `Math.Round(…)` method.
+
+The number **π** in C# programs is available through `Math.PI`.
 [/task-description]
 
 [/code-task]
@@ -434,14 +435,15 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - USD to BGN
 
-Write a program for **conversion of US dollars** (USD) **in bulgarian levs** (BGN). **Round** the result to **2 digits** after the decimal separator. Use a fixed rate between a dollar and a lev: **1 USD = 1.79549 BGN**.
-
 [code-task title="Converter - USD to BGN" executionStrategy="csharp-dot-net-core-code"]
+
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
-    **1 USD = 1.79549 BGN**
+Write a program for **conversion of US dollars** (USD) **in bulgarian levs** (BGN). **Round** the result to **2 digits** after the decimal separator. Use a fixed rate between a dollar and a lev: **1 USD = 1.79549 BGN**.
+
+**1 USD = 1.79549 BGN**
 [/task-description]
 
 [code-io /]
@@ -500,7 +502,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: ** calcutations with dates - 1000 days on Earth
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculations with dates" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 [/code-editor]
