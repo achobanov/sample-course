@@ -1,7 +1,7 @@
 [slide]
 # Problem: Change Tiles
 
-[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code"]]  
+[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -15,6 +15,7 @@ Write a program that **reads the size of the ground, the tiles and the bench fro
 [/task-description]
 
 [code-io /]
+
 [/code-task]		
 
 

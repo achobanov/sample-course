@@ -14,7 +14,7 @@ You have an **integer** - the number of points. **Bonus scores** are charged on 
 - for **even** number -> + 1 p.
 - for number, that **ends with 5** -> + 2 p.
 
-[code-task title="Bonus score" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Bonus score" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var num = int.Parse(Console.ReadLine());
@@ -25,6 +25,9 @@ var bonusScore = 0.0;
 [task-description]
 We can calculate the basic and additional bonus points with a series of `if-else-if-else` conditions. For **the main bonus points we have 3 cases** (when the entered number is up to 100, between 100 and 1000 and larger than 1000), and for **extra bonus points - 2 more cases** (when the number is even and odd).
 [/task-description]
+
+[code-io /]
+
 [/code-task]
 
 ### Sample Input and Output
@@ -56,7 +59,7 @@ Test your solution  here: [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Problem: sum seconds
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -114,7 +117,7 @@ You have three input lines:
 - Second line: input unit.
 - Third line: output unit (the result).
 
-[code-task title="Metric converter" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Metric converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var size = double.Parse(Console.ReadLine());
@@ -132,6 +135,8 @@ if (sourceMetric == "km")
 [task-description]
 We read the input data, and we can add `.ToLower()` method when we read the measure units, which will make all letters small.
 [/task-description]
+
+[code-io /]
 
 [/code-task]
 

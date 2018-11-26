@@ -1,7 +1,7 @@
 [slide]
 # Problem: Money
 
-[code-task title="Money" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Money" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]

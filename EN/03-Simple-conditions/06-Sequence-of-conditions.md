@@ -27,7 +27,7 @@ else
 [slide]
 # Example: digit in English
 
-[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 int num = int.Parse(Console.ReadLine());
@@ -59,6 +59,7 @@ Print the digits in the range of 1 to 9 (the digit is read from the console). We
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 The program logic from the above example **sequentially compares** the input number from the console with the digits from 1 to 9, when **each sequent comparison is being performed only in case the previous comparison is not true**. Ultimately, if none of the `if` conditions are not executed, the last `else` **clause` is.
