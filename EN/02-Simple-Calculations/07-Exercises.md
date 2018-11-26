@@ -29,7 +29,7 @@ The purpose of this blank solution is to add **a project per problem** from the 
 
 The first exercise from this theme is the following:
 
-[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 Console.Write("a = ");
