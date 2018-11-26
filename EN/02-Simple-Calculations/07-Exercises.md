@@ -42,6 +42,8 @@ var area = ...
 Write a console program that  **reads a whole number `a` and calculates the area** of a square with side `a`. The task is trivial and easy: **read a number** from the console, **multiply it by itself** and **print the received result** on the console.
 [/task-description]
 
+[code-io /]
+
 [/code-task]
 
 ## Hints and Guideliness
