@@ -17,17 +17,20 @@ else
 
 ## Example: excellent grade or not
 
+[code-task title="Excellent grade or not" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+var grade = double.Parse(Console.ReadLine());
+// TODO
+[/code-editor]
+
+[task-description]
 Like the example above, we read the grade from the console and check if it's excellent, but this time we should **output the result in both cases**.
+[/task-description]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
+[code-io /]
 
-    [task-description]
-        var grade = double.Parse(Console.ReadLine());
-        // TODO
-    [/task-description]
-[/task]			
+[/code-task]
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/02.Excellent-or-not-01.png alt="Code" /]
 
@@ -65,17 +68,23 @@ The following output will be printed on the console:
 
 Write a program that checks whether an integer is **even** or **odd**.
 
-[task]  
-    [code-editor language=csharp]
-        var num = int.Parse(Console.ReadLine());
-        if (num % 2 == 0)
-        // TODO
-    [/code-editor]
+[code-task title="Even or Odd" executionStrategy="csharp-dot-net-core-code"]
 
-    [task-description]
-    We can solve the problem with one `if-else` construction and the operator `%`, which returns a **remainder by dividing** from two numbers.
-    [/task-description]
-[/task]			
+[code-editor language=csharp]
+var num = int.Parse(Console.ReadLine());
+if (num % 2 == 0)
+// TODO
+[/code-editor]
+
+[task-description]
+We can solve the problem with one `if-else` construction and the operator `%`, which returns a **remainder by dividing** from two numbers.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
+
+
 
 ## Testing in the Judge System
 
@@ -87,14 +96,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 
 Write a program that reads from the console two integers and takes the larger of them.
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
+[code-task title="The larger number" executionStrategy="csharp-dot-net-core-code"]
 
-    [task-description]
-    Our first task is to **read** the two numbers from the console. Then, with a simple `if-else` construction, combined with the **operator for greater than** (`>`), we do check. Part of the code is deliberately blurred to test what we have learned so far.
-    [/task-description]
-[/task]		
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Our first task is to **read** the two numbers from the console. Then, with a simple `if-else` construction, combined with the **operator for greater than** (`>`), we do check. Part of the code is deliberately blurred to test what we have learned so far.
+[/task-description]
+
+[code-io /]
+
+[/code-task]		
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/04.Greater-number-02.png alt="Code" /]
 

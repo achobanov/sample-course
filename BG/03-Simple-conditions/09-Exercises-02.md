@@ -23,16 +23,19 @@ Now we have empty Visual Studio Solution (no projects in it):
 [slide]
 # Problem: excellent grade
 
+[code-task title="Excellent grade" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+var grade = double.Parse(Console.ReadLine());
+[/code-editor]
+
+[task-description]
 The first exercise for this topic is to write a **console program** that **inputs the grade** (decimal number) and prints **Excellent!** if the grade is **5.50** or high.
+[/task-description]
 
-[task]  
-    [code-editor language=csharp]
-        var grade = double.Parse(Console.ReadLine());
-    [/code-editor]
+[code-io /]
 
-    [task-description]
-    [/task-description]
-[/task]	
+[/code-task]
 
 ## Sample Input and Output
 
@@ -46,13 +49,13 @@ The first exercise for this topic is to write a **console program** that **input
 ## Create a new C # project
 
 We create **a new project** in the existing Visual Studio solution. In **Solution Explorer**, right-click on **Solution 'Simple-Conditions'**. Then choose [**Add**] -> [**New Project**]:
- 
+
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/09.Excellent-result-01.png alt="New Console Project" /]
 
 A dialog box will open for selecting a project. We choose **C # console application** and create a name, for example "Excellent-Result":
- 
+
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/09.Excellent-result-02.png alt="New Console Project" /]
- 
+
 Now we have a solution with one console application in it. It remains to write the code to solve the problem.
 
 ## Writing the code
@@ -79,13 +82,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: excellent grade or not
 
-The next exercise from this topic is to write a **console program** that **inputs the grade** (decimal number) and prints **Excellent!** if the rating is **5.50** or higher , otherwise "**Not excellent.**".
+[code-task title="Excellent grade or Not" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+var grade = double.Parse(Console.ReadLine());
+[/code-editor]
 
-[task]  
-    [code-editor language=csharp]
-        var grade = double.Parse(Console.ReadLine());
-    [/code-editor]
-[/task]	
+[task-description]
+The next exercise from this topic is to write a **console program** that **inputs the grade** (decimal number) and prints **Excellent!** if the rating is **5.50** or higher , otherwise "**Not excellent.**".
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -102,7 +110,7 @@ First we create **a new C# console project** in the **Simple-Conditions** soluti
 
 - We click on the solution in Solution Explorer and choose [**Add**] -> [**New Project**].
 - We choose [**Visual C#**] -> [**Windows**] -> [**Console Application**] and create a name, for example: “Excellent-or-Not”.
- 
+
 Now we have to **write the code** of the program. We can help with the sample code from the picture:  
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/02.Excellent-or-not-01.png alt="Code" /]
@@ -114,7 +122,7 @@ We turn on mode to **automatic switching to the current project** by clicking on
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/02.Excellent-or-not-02.png alt="Set Startup Project" /]
 
 A dialog box will appear and you have to choose [**Startup Project**] -> [**Current selection**]:
- 
+
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/02.Excellent-or-not-03.png alt="Set Startup Project" /]
 
 ## Test the app
@@ -134,16 +142,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: even or odd
 
+[code-task title="Even or odd" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+
+[/code-editor]
+
+[task-description]
 Write a program that checks whether an **integer** is **even** or **odd**.
+Checking if the given number is even can be done with the operator `%`.
+[/task-description]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-
-    [task-description]
-        Checking if the given number is even can be done with the operator `%`.
-    [/task-description]
-[/task]	
+[code-io /]
+[/code-task]
 
 ## Sample Input and Output
 
@@ -170,12 +180,17 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: Greater number
 
-Write a program that inputs **two integers** and prints the larger one.
+[code-task title="Greater number" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+[/code-editor]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[task-description]
+Write a program that inputs **two integers** and prints the larger one.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -204,16 +219,19 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: digit in english
 
+[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 Write a program that inputs **an integer in the range** [**0 ... 9**] and output it **with words** in English. If the number is out of range, print "**too large a number**".
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
+You can use a series of `if-else` conditions to create the possible **11 cases**.
+[/task-description]
 
-    [task-description]
-        You can use a series of `if-else` conditions to create the possible **11 cases**.
-    [/task-description]
-[/task]	
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -236,12 +254,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: guess the password
 
-Write a program that **inputs a password** (one line with random text) and checks if the input **matches** with the phrase "**s3cr3t! P @ ssw0rd**". If it matches, print "**Welcome**", otherwise "**Wrong password!**".
+[code-task title="Guess the password" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that **inputs a password** (one line with random text) and checks if the input **matches** with the phrase "**s3cr3t!P@ssw0rd**". If it matches, print "**Welcome**", otherwise "**Wrong password!**".
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -263,12 +287,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: number from 100 to 200
 
-Write a program that **inputs an integer** and checks if it is **below 100**, **between 100 and 200** or **over 200**. Print the appropriate message as in the examples below.
+[code-task title="Number from 100 to 200" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that **inputs an integer** and checks if it is **below 100**, **between 100 and 200** or **over 200**. Print the appropriate message as in the examples below.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -286,12 +316,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal words
 
-Write a program that **inputs two words** and checks if they are the same. Do not make difference between uppercase and lowercase letters. You have to print "**yes**" or "**no**".
+[code-task title="Equal words" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that **inputs two words** and checks if they are the same. Do not make difference between uppercase and lowercase letters. You have to print "**yes**" or "**no**".
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -315,12 +351,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: speed info
 
-Write a program that **inputs the speed** (decimal number) and prints **speed information**. For speed **up to 10** (inclusive), print "**slow**". For speed **over 10** and **up to 50**, print "**average**". For speed **over 50 and up to 150**, print "**fast**". For speed **over 150 and up to 1000**, print "**ultra fast**". For higher speed, print "**extremely fast**".
+[code-task title="Speed info" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that **inputs the speed** (decimal number) and prints **speed information**. For speed **up to 10** (inclusive), print "**slow**". For speed **over 10** and **up to 50**, print "**average**". For speed **over 50 and up to 150**, print "**fast**". For speed **over 150 and up to 1000**, print "**ultra fast**". For higher speed, print "**extremely fast**".
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -340,6 +382,12 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: area of figures
 
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
 Write a program that ** inputs the sizes of a geometric figure** and **calculates its face**. The figures are four types: **square**, **rectangle**, **circle** and **triangle**.
 
 The first line of the entrance reads the type of the figure (`square`, `rectangle`, `circle`, `triangle`).
@@ -349,11 +397,11 @@ The first line of the entrance reads the type of the figure (`square`, `rectangl
 - If the figure is **triangle**, on the next two rows we read two numbers - the length of the side and the length of its height.
 
 Round the result up to the **third digit after the decimal point**.
+[/task-description]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -372,12 +420,19 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: time plus 15 minutes
 
-Write a program that **inputs hours and minutes** from a 24-hour day and calculates how much it will be **after 15 minutes**. Print the result in **hh: mm** format. Hours are always between 0 and 23, and minutes are always between 0 and 59. Hours are written with one or two digits. Minutes are always written with two digits and zero at the front when needed.
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that **inputs hours and minutes** from a 24-hour day and calculates how much it will be **after 15 minutes**. Print the result in **hh: mm** format. Hours are always between 0 and 23, and minutes are always between 0 and 59. Hours are written with one or two digits. Minutes are always written with two digits and zero at the front when needed.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -401,12 +456,17 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal numbers
 
-Write a program that inputs **3 numbers** and prints whether they are the same (**yes** / **no**).
+[code-task title="Equal numbers" executionStrategy="csharp-dot-net-core-code"]
+[code-editor language=csharp]
+[/code-editor]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[task-description]
+Write a program that inputs **3 numbers** and prints whether they are the same (**yes** / **no**).
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -424,12 +484,18 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: \* number to words
 
-Write a program that converts a number in the range of [**0 ... 100**] into text.
+[code-task title="Number to words" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Write a program that converts a number in the range of [**0 ... 100**] into text.
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 

@@ -5,12 +5,12 @@ A gardener is selling his harvest on the vegetable market. He is selling **veget
 
 ## Input Data
 
-**Four numbers** are read from the console, one per line: 
+**Four numbers** are read from the console, one per line:
 
 - First line - Price per kilogram for vegetables - a floating-point number.
 - Second line - Price per kilogram for fruits - a floating-point number.
 - Third line - Total kilograms of vegetables - an integer.
-- Fourth line - Total kilograms of fruits - an integer. 
+- Fourth line - Total kilograms of fruits - an integer.
 
 **Constraints: All numbers will be in the interval between 0.00 and 1000.00**
 
@@ -18,26 +18,33 @@ A gardener is selling his harvest on the vegetable market. He is selling **veget
 
 Print on the console **one floating-point number: the earnings of all fruits and vegetables in euro**.
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]
+[code-task title="Vegetable Market" executionStrategy="csharp-dot-net-core-code"]  
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
 |          Input          | Output |
 |-------------------------|--------|
-|0.194<br>19.4<br>10<br>10|101     | 
+|0.194<br>19.4<br>10<br>10|101     |
 
 **Clarification for the first example:**
 
 - Vegetables cost: 0.194 lv. \* 10 kg. = **1.94 lv.**
 - Fruits cost: 19.4 lv. \* 10 kg.  = **194 lv.**
-- Total: **195.94 lv. = 101 euro**. 
+- Total: **195.94 lv. = 101 euro**.
 
 |        Input         |    Output      |
 |----------------------|----------------|
-|1.5<br>2.5<br>10<br>10|20.6185567010309| 
+|1.5<br>2.5<br>10<br>10|20.6185567010309|
 
 ## Hints and Guidelines
 
@@ -51,11 +58,11 @@ Let' s first go through the problem requirements. In this case, we have to calcu
 
 After we have a clear idea on how to solve the task, we can continue with choosing appropriate data types. Let' s go through the **input**: we have **two integers** for total kilograms of vegetables and fruits, therefore, the variables we declare to store their values will be of type `int`. The prices of the fruits and vegetables are said to be floating-point numbers, therefore, the variables will be of type `double`.
 
-We can also declare two variables to store the income from the fruits and vegetables separately. As we are multiplying a variable of type `int` (total kilograms) with one of type `double` (price), the result should also be of type `double`. Let' s clarify that: generally, **operators work with arguments of the same type**. Therefore, in order to multiply values from different data types, we have to convert them to the same type. When there are types of different scopes in one expression, the one with the highest scope is the one the other types are converted to, in this case, `double`. As there isn' t danger of data loss, **the conversion is implicit** and is automatically done by the compiler. 
+We can also declare two variables to store the income from the fruits and vegetables separately. As we are multiplying a variable of type `int` (total kilograms) with one of type `double` (price), the result should also be of type `double`. Let' s clarify that: generally, **operators work with arguments of the same type**. Therefore, in order to multiply values from different data types, we have to convert them to the same type. When there are types of different scopes in one expression, the one with the highest scope is the one the other types are converted to, in this case, `double`. As there isn' t danger of data loss, **the conversion is implicit** and is automatically done by the compiler.
 
 The **output** should also be a **floating-point number**, therefore, the result will be stored in a variable of type `double`.
 
-### Solution 
+### Solution
 
 It is time to get to the solution. We can divide it into three smaller tasks:  
 - **Reading input from the console**.
@@ -70,7 +77,7 @@ We do the necessary calculations:
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-2-images/02.Vegetable-market-02.png alt="Code" /]
 
-The task does not specify special output format, therefore, we just have to calculate the wanted value and print it on the console. As in mathematics and so in programming, division has a priority over addition. However, in this task, first we have to **calculate the sum** of the two received values and then **divide by 1.94**. In order to give priority to addition, we can use brackets. With `Console.WriteLine(…)` we print the output on the console. 
+The task does not specify special output format, therefore, we just have to calculate the wanted value and print it on the console. As in mathematics and so in programming, division has a priority over addition. However, in this task, first we have to **calculate the sum** of the two received values and then **divide by 1.94**. In order to give priority to addition, we can use brackets. With `Console.WriteLine(…)` we print the output on the console.
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-2-images/02.Vegetable-market-03.png alt="Code" /]
 

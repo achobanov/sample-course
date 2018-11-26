@@ -1,7 +1,7 @@
 [slide]
 # Problem: Daily Earnings
 
-Ivan is a programmer in an **American company** and he **works** at home **approximately N days per month** by earning **approximately M dollars per day**. At the end of the year, Ivan **receives a bonus**, which **equals 2.5 of his monthly salaries. 25% of his annual salary goes for taxes**. Write a program that calculates **how much are Ivan' s net average earnings in lev per day**, as he spends them in Bulgaria. It is accepted that **one year has exactly 365 days. The exchange rate of dollar** to lev will be **read from the console**. 
+Ivan is a programmer in an **American company** and he **works** at home **approximately N days per month** by earning **approximately M dollars per day**. At the end of the year, Ivan **receives a bonus**, which **equals 2.5 of his monthly salaries. 25% of his annual salary goes for taxes**. Write a program that calculates **how much are Ivan' s net average earnings in lev per day**, as he spends them in Bulgaria. It is accepted that **one year has exactly 365 days. The exchange rate of dollar** to lev will be **read from the console**.
 
 ## Input Data
 
@@ -12,18 +12,22 @@ Ivan is a programmer in an **American company** and he **works** at home **appro
 
 ## Output Data
 
-Print **one number** on the console - **the daily earnings in lev**. The result will be **rounded to the second decimal point**. 
+Print **one number** on the console - **the daily earnings in lev**. The result will be **rounded to the second decimal point**.
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code"]
+
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+[/task-description]
+[/code-task]
 
 ## Sample Input and Output
 
 |       Input       | Output |
 |-------------------|--------|
-|21<br>75.00<br>1.59|74.61   | 
+|21<br>75.00<br>1.59|74.61   |
 
 **Explanation**:
 - **One monthly salary** = 21 \* 75 = 1575 dollars.
@@ -46,11 +50,11 @@ Let' s first calculate **how much the monthly salary** of Ivan is. We do that by
 
 ### Choosing Data Types
 
-**The working days** per month are given as **an integer**, therefore, we can declare a variable of **type `int` to store their value. For both **the earned money** and **the exchange rate of dollar to lev**, we will receive **a floating-point number**, therefore, we will use `double`. As `double` is the data type with **the higher scope**, and the output should also be **a floating-point number**, we use `double` for the other variables that we create as well. 
+**The working days** per month are given as **an integer**, therefore, we can declare a variable of **type `int` to store their value. For both **the earned money** and **the exchange rate of dollar to lev**, we will receive **a floating-point number**, therefore, we will use `double`. As `double` is the data type with **the higher scope**, and the output should also be **a floating-point number**, we use `double` for the other variables that we create as well.
 
 ### Reading the Input Data and Doing the Calculations
 
-Again: after we have an idea on how to solve the problem and we have considered the data types that we are going to use, we can start **writing the program**. As in the previous tasks, we can divide the solution into three smaller tasks: 
+Again: after we have an idea on how to solve the problem and we have considered the data types that we are going to use, we can start **writing the program**. As in the previous tasks, we can divide the solution into three smaller tasks:
 - **Reading the input from the console**.
 - **Doing the calculations**.
 - **Printing the output** on the console.
@@ -63,7 +67,7 @@ We do the calculations:
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-2-images/05.Daily-earnings-02.png alt="Code" /]
 
-We could write an expression that calculates the annual income without brackets as well. As multiplication is an operation that has a higher priority over addition, it will be performed first. Despite that, **writing brackets is recommended** when using more operators, as this way, the code is **easily readable** and chances of making a mistake are smaller. 
+We could write an expression that calculates the annual income without brackets as well. As multiplication is an operation that has a higher priority over addition, it will be performed first. Despite that, **writing brackets is recommended** when using more operators, as this way, the code is **easily readable** and chances of making a mistake are smaller.
 
 ### Printing the Result
 

@@ -14,18 +14,19 @@ You have an **integer** - the number of points. **Bonus scores** are charged on 
 - for **even** number -> + 1 p.
 - for number, that **ends with 5** -> + 2 p.
 
-[task]  
-    [code-editor language=csharp]
-        var num = int.Parse(Console.ReadLine());
-        var bonusScore = 0.0;
-        // TODO
-    [/code-editor]
+[code-task title="Bonus score" executionStrategy="csharp-dot-net-core-code"]
 
-    [task-description]
-        We can calculate the basic and additional bonus points with a series of `if-else-if-else` conditions. For **the main bonus points we have 3 cases** (when the entered number is up to 100, between 100 and 1000 and larger than 1000), and for **extra bonus points - 2 more cases** (when the number is even and odd).
-    [/task-description]
-[/task]
- 
+[code-editor language=csharp]
+var num = int.Parse(Console.ReadLine());
+var bonusScore = 0.0;
+// TODO
+[/code-editor]
+
+[task-description]
+We can calculate the basic and additional bonus points with a series of `if-else-if-else` conditions. For **the main bonus points we have 3 cases** (when the entered number is up to 100, between 100 and 1000 and larger than 1000), and for **extra bonus points - 2 more cases** (when the number is even and odd).
+[/task-description]
+[/code-task]
+
 ### Sample Input and Output
 
 | Input |       Output      |
@@ -55,12 +56,18 @@ Test your solution  here: [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Problem: sum seconds
 
-Three athletes finish for a few **seconds** (between **1** and **50**). Write a program that introduces the times of the contestants and calculates their **total time** in "minutes:seconds". Seconds need to be **zeroed at the front** (2 -> "02", 7 -> "07", 35 -> "35").
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
 
-[task]  
-    [code-editor language=csharp]
-    [/code-editor]
-[/task]	
+[code-editor language=csharp]
+[/code-editor]
+
+[task-description]
+Three athletes finish for a few **seconds** (between **1** and **50**). Write a program that introduces the times of the contestants and calculates their **total time** in "minutes:seconds". Seconds need to be **zeroed at the front** (2 -> "02", 7 -> "07", 35 -> "35").
+[/task-description]
+
+[code-io /]
+
+[/code-task]
 
 ## Sample Input and Output
 
@@ -107,24 +114,26 @@ You have three input lines:
 - Second line: input unit.
 - Third line: output unit (the result).
 
-[task]  
-    [code-editor language=csharp]
-        var size = double.Parse(Console.ReadLine());
-        var sourceMetric = Console.ReadLine().ToLower();
-        var destMetric = Console.ReadLine().ToLower();
+[code-task title="Metric converter" executionStrategy="csharp-dot-net-core-code"]
 
-        if (sourceMetric == "km")
-        {
-            size = size / 0.001;
-        }
+[code-editor language=csharp]
+var size = double.Parse(Console.ReadLine());
+var sourceMetric = Console.ReadLine().ToLower();
+var destMetric = Console.ReadLine().ToLower();
 
-        // TODO: Check the other metrics
-    [/code-editor]
+if (sourceMetric == "km")
+{
+    size = size / 0.001;
+}
 
-    [task-description]
-        We read the input data, and we can add `.ToLower()` method when we read the measure units, which will make all letters small.
-    [/task-description]
-[/task]	
+// TODO: Check the other metrics
+[/code-editor]
+
+[task-description]
+We read the input data, and we can add `.ToLower()` method when we read the measure units, which will make all letters small.
+[/task-description]
+
+[/code-task]
 
 ## Sample Input and Output
 
