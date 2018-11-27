@@ -1,7 +1,7 @@
 [slide]
 # Problem: Daily Earnings
 
-[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]

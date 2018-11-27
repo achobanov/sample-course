@@ -29,7 +29,7 @@ The purpose of this blank solution is to add **a project per problem** from the 
 
 The first exercise from this theme is the following:
 
-[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 Console.Write("a = ");
@@ -41,6 +41,8 @@ var area = ...
 [task-description]
 Write a console program that  **reads a whole number `a` and calculates the area** of a square with side `a`. The task is trivial and easy: **read a number** from the console, **multiply it by itself** and **print the received result** on the console.
 [/task-description]
+
+[code-io /]
 
 [/code-task]
 
@@ -74,7 +76,7 @@ Test your solution here:  [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Exercies: from inches to centimeters
 
-[code-task  title="From inches to centimeters" executionStrategy="csharp-dot-net-core-code"]
+[code-task  title="From inches to centimeters" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 Console.Write("Inches = ");
 var inches = double.Parse(Console.ReadLine());
@@ -84,6 +86,8 @@ var inches = double.Parse(Console.ReadLine());
 [task-description]
 Write a program that **reads a number from the console** (it is not mandatory to be a whole number) and converts the number from **inches to centimeters.** For the purpose **it multiplies the inches by  2.54** (because one inch = 2.54 centimeters).
 [/task-description]
+
+[code-io /]
 
 [/code-task]
 
@@ -182,6 +186,7 @@ Write a program that  **reads a person's  name** and prints `Hello, <name>!`, wh
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Hints and Guideliness
@@ -220,6 +225,7 @@ Message should be in the following format: `You are <firstName> <lastName>, a <a
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Hints and Guideliness
@@ -250,7 +256,7 @@ In the figure bellow is shown a trapezoid with bases 8 and 13 and height 7. It h
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/05.Trapezoid-area-01.png alt="Trapezoid" /]
 
-[code-task title="Trapezoid area" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Trapezoid area" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var b1 = double.Parse(Console.ReadLine());
@@ -260,6 +266,8 @@ var b1 = double.Parse(Console.ReadLine());
 [task-description]
 Multiplication in programming is performed by `*` operator.
 [/task-description]
+
+[code-io /]
 
 [/code-task]
 
@@ -292,6 +300,9 @@ Write a program that reads from the console a **number r** and calculates and pr
         -	`Area = Math.PI * r * r`.
         -	`Perimeter = 2 * Math.PI * r`.
 [/task-description]
+
+[code-io /]
+
 [/code-task]
 
 ## Input and output
@@ -313,7 +324,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/07.Rectangle-area-01.png alt="Rectangle Figure" /]
 
-[code-task title="Rectangle area in a coordinate plane" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Rectangle area in a coordinate plane" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -323,6 +334,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Sample Input and Output
@@ -342,7 +354,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: triangle area
 
-[code-task title="Triangle area" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Triangle area" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 [/code-editor]
 
@@ -353,6 +365,7 @@ Use the **formula** for triangle area: **area = a * h / 2**.
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Sample Input and Output
@@ -372,7 +385,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from degrees on °C to degrees on °F
 
-[code-task title="Console converter - from degrees on °C to degrees on °F" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Console converter - from degrees on °C to degrees on °F" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -404,7 +417,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from radians to degrees
 
-[code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -415,6 +428,8 @@ Write a program, that reads **an angle in [anchor href=https://en.wikipedia.org/
 
 The number **π** in C# programs is available through `Math.PI`.
 [/task-description]
+
+[code-io /]
 
 [/code-task]
 
@@ -435,7 +450,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - USD to BGN
 
-[code-task title="Converter - USD to BGN" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Converter - USD to BGN" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -466,7 +481,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: \* console currency converter
 
-[code-task title="Currency converter" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Currency converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -502,7 +517,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: ** calcutations with dates - 1000 days on Earth
 
-[code-task title="Calculations with dates" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculations with dates" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -512,6 +527,7 @@ Write a program that enters Напишете програма, която във
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Sample Input and Output

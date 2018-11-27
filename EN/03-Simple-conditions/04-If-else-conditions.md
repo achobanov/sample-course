@@ -17,7 +17,7 @@ else
 
 ## Example: excellent grade or not
 
-[code-task title="Excellent grade or not" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent grade or not" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var grade = double.Parse(Console.ReadLine());
@@ -66,9 +66,7 @@ The following output will be printed on the console:
 [slide]
 # Example: even or odd
 
-Write a program that checks whether an integer is **even** or **odd**.
-
-[code-task title="Even or Odd" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Even or Odd" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var num = int.Parse(Console.ReadLine());
@@ -77,6 +75,8 @@ if (num % 2 == 0)
 [/code-editor]
 
 [task-description]
+Write a program that checks whether an integer is **even** or **odd**.
+
 We can solve the problem with one `if-else` construction and the operator `%`, which returns a **remainder by dividing** from two numbers.
 [/task-description]
 
@@ -94,14 +94,14 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Example: the larger number
 
-Write a program that reads from the console two integers and takes the larger of them.
-
-[code-task title="The larger number" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="The larger number" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
+Write a program that reads from the console two integers and takes the larger of them.
+
 Our first task is to **read** the two numbers from the console. Then, with a simple `if-else` construction, combined with the **operator for greater than** (`>`), we do check. Part of the code is deliberately blurred to test what we have learned so far.
 [/task-description]
 

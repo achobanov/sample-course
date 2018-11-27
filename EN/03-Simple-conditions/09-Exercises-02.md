@@ -23,7 +23,7 @@ Now we have empty Visual Studio Solution (no projects in it):
 [slide]
 # Problem: excellent grade
 
-[code-task title="Excellent grade" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent grade" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var grade = double.Parse(Console.ReadLine());
@@ -82,7 +82,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: excellent grade or not
 
-[code-task title="Excellent grade or Not" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent grade or Not" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 var grade = double.Parse(Console.ReadLine());
 [/code-editor]
@@ -142,7 +142,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: even or odd
 
-[code-task title="Even or odd" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Even or odd" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 
 [/code-editor]
@@ -153,6 +153,7 @@ Checking if the given number is even can be done with the operator `%`.
 [/task-description]
 
 [code-io /]
+
 [/code-task]
 
 ## Sample Input and Output
@@ -180,7 +181,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: Greater number
 
-[code-task title="Greater number" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Greater number" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 [/code-editor]
 
@@ -219,7 +220,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: digit in english
 
-[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 [/code-editor]
 
@@ -254,7 +255,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: guess the password
 
-[code-task title="Guess the password" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Guess the password" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -287,7 +288,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: number from 100 to 200
 
-[code-task title="Number from 100 to 200" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Number from 100 to 200" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -316,7 +317,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal words
 
-[code-task title="Equal words" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Equal words" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -351,7 +352,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: speed info
 
-[code-task title="Speed info" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Speed info" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -382,7 +383,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: area of figures
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -421,7 +422,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 # Problem: time plus 15 minutes
 
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -456,7 +457,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal numbers
 
-[code-task title="Equal numbers" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Equal numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 [/code-editor]
 
@@ -484,7 +485,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: \* number to words
 
-[code-task title="Number to words" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Number to words" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
