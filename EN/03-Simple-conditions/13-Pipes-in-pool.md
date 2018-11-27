@@ -1,7 +1,7 @@
 [slide]
 # Problem: Pipes in Pool
 
-[code-task title="Pipes in Pool" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Pipes in Pool" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -11,7 +11,6 @@ A pool with **volume V** fills up with **two pipes**. **Each pipe has a certain 
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

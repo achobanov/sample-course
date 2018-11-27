@@ -96,6 +96,8 @@ For **smaller projects** VS Solutions and VS Projects are  **complicating the wo
 Write a console application that prints "Hello C#" message on the console.
 [/task-description]
 
+[code-io /]
+
 [/code-task]
 
 Let's get back to our console program. We already have Visual Studio and we can start it. Afterwards we create a new console project: [**File**] &rarr; [**New**] &rarr; [**Project**] &rarr; [**Visual C#**] &rarr; [**Windows**] &rarr; [**Console Application**].

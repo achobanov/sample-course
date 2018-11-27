@@ -1,7 +1,7 @@
 [slide]
 # Problem: Change Tiles
 
-[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code"]]  
+[code-task title="Change tiles" executionStrategy="csharp-dot-net-core-code" requiresInput]  
 
 [code-editor language=csharp]
 [/code-editor]

@@ -1,7 +1,7 @@
 [slide]
 # Problem: Vegetable Market
 
-[code-task title="Vegetable Market" executionStrategy="csharp-dot-net-core-code"]  
+[code-task title="Vegetable Market" executionStrategy="csharp-dot-net-core-code" requiresInput]  
 
 [code-editor language=csharp]
 [/code-editor]
@@ -11,7 +11,6 @@ A gardener is selling his harvest on the vegetable market. He is selling **veget
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

@@ -29,7 +29,7 @@ The purpose of this blank solution is to add **a project per problem** from the 
 
 The first exercise from this theme is the following:
 
-[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculating the area of a square" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 Console.Write("a = ");
@@ -42,6 +42,7 @@ var area = ...
 Write a console program that  **reads a whole number `a` and calculates the area** of a square with side `a`. The task is trivial and easy: **read a number** from the console, **multiply it by itself** and **print the received result** on the console.
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 ## Hints and Guideliness
@@ -74,7 +75,7 @@ Test your solution here:  [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Exercies: from inches to centimeters
 
-[code-task  title="From inches to centimeters" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="From inches to centimeters" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 Console.Write("Inches = ");
 var inches = double.Parse(Console.ReadLine());
@@ -85,6 +86,7 @@ var inches = double.Parse(Console.ReadLine());
 Write a program that **reads a number from the console** (it is not mandatory to be a whole number) and converts the number from **inches to centimeters.** For the purpose **it multiplies the inches by  2.54** (because one inch = 2.54 centimeters).
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 ## Hints and Guideliness
@@ -261,6 +263,7 @@ var b1 = double.Parse(Console.ReadLine());
 Multiplication in programming is performed by `*` operator.
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 ## Hints and Guideliness
@@ -292,6 +295,8 @@ Write a program that reads from the console a **number r** and calculates and pr
         -	`Area = Math.PI * r * r`.
         -	`Perimeter = 2 * Math.PI * r`.
 [/task-description]
+
+[code-io /]
 [/code-task]
 
 ## Input and output
@@ -313,7 +318,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/07.Rectangle-area-01.png alt="Rectangle Figure" /]
 
-[code-task title="Rectangle area in a coordinate plane" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Rectangle area in a coordinate plane" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -342,7 +347,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: triangle area
 
-[code-task title="Triangle area" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Triangle area" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 [/code-editor]
 
@@ -372,7 +377,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from degrees on °C to degrees on °F
 
-[code-task title="Console converter - from degrees on °C to degrees on °F" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Console converter - from degrees on °C to degrees on °F" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -384,7 +389,6 @@ Use the **formula** °F = °C × 1,8 + 32
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -404,7 +408,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from radians to degrees
 
-[code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -416,6 +420,7 @@ Write a program, that reads **an angle in [anchor href=https://en.wikipedia.org/
 The number **π** in C# programs is available through `Math.PI`.
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 ## Sample Input and Output
@@ -435,7 +440,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - USD to BGN
 
-[code-task title="Converter - USD to BGN" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Converter - USD to BGN" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -447,7 +452,6 @@ Write a program for **conversion of US dollars** (USD) **in bulgarian levs** (BG
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -466,7 +470,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: \* console currency converter
 
-[code-task title="Currency converter" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Currency converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -482,7 +486,6 @@ Write a program for **conversion of money from one currency to another**. It has
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -502,7 +505,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: ** calcutations with dates - 1000 days on Earth
 
-[code-task title="Calculations with dates" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Calculations with dates" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]

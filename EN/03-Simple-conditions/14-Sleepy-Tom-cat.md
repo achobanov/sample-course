@@ -1,7 +1,7 @@
 [slide]
 # Problem: Sleepy Tom Cat
 
-[code-task title="Sleepy Tom Cat" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Sleepy Tom Cat" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -17,7 +17,6 @@ Write a program that receives **the number of holidays** and prints whether **To
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

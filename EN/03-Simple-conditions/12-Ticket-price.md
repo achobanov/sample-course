@@ -5,7 +5,7 @@ After having revised how to write simple conditions, let' s solve a few tasks in
 
 # Problem: Ticket Price
 
-[code-task title="Ticket Price" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Ticket Price" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -20,7 +20,6 @@ Write a program that receives the number of **kilometers n** and **period of the
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

@@ -15,6 +15,8 @@ Write a C# console program, which **calculates** and **prints** the value of the
 <p align="center"> (3522 + 52353) * 23 - (2336 * 501 + 23432 - 6743) * 3</p>
 [/task-description]
 
+[code-io /]
+
 [/code-task]
 
 Warning: **it is not allowed to previously calculate the value** (for example with Windows Calculator).

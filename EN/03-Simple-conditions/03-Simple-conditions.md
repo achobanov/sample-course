@@ -12,22 +12,20 @@ if (condition)
 
 ## Example: excellent grade
 
-We read the grade from the console and check if it's excellent (`≥ 5.50`).
-
-[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/01.Еxcellent-result-01.png alt="Code" /]
-
-Test the code from the example locally. Try entering different grades, for example **4.75**, **5.49**, **5.50** and **6.00**. For grades **less than 5.50**, the program will not give any output, however if the grade is **5.50 or greater**, the output would be "**Excellent!**".
-
-[code-task title="Simple conditions" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent Grade" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
+We read the grade from the console and check if it's excellent (`≥ 5.50`).
+
+[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-3-images/01.Еxcellent-result-01.png alt="Code" /]
+
+Test the code from the example locally. Try entering different grades, for example **4.75**, **5.49**, **5.50** and **6.00**. For grades **less than 5.50**, the program will not give any output, however if the grade is **5.50 or greater**, the output would be "**Excellent!**".
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ### Testing in the Judge System

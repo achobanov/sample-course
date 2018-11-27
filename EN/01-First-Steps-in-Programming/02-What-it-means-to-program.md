@@ -75,6 +75,8 @@ Console.Beep(432, 500);
 Our first program is going to be a single C# command, that plays the musical note "la" (432 Hz) with a duration of half a second (500 miliseconds):
 [/task-description]
 
+[code-io /]
+
 [/code-task]
 
 In a short time we will find out how we can execute this command and hear the sound of the note, but for now let's just look at what the commands in programming represent. Let's get to know a couple of more examples.
@@ -96,6 +98,8 @@ for (i = 200; i <= 4000; i += 200)
 We can complicate the previous program by giving for execution repeating commands in a loop for playing a sequence of notes with rising height.
 [/task-description]
 
+[code-io /]
+
 [/code-task]
 
 In the example above we made the computer play one after another for a very short time (100 miliseconds) all of the notes with height 200, 400, 600 etc. Hz until they reach 4000 Hz. The result of the program is playing something like a melody.
@@ -106,7 +110,7 @@ How do iterations (cycles) work in programming, we will learn in the **chapter "
 [slide]
 # Example: a program that converts from leva to euro
 
-[code-task title="Program That Converts From Leva to Euro" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Program That Converts From Leva to Euro" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var leva = int.Parse(Console.ReadLine());

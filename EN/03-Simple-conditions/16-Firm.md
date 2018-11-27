@@ -1,7 +1,7 @@
 [slide]
 # Problem: Firm
 
-[code-task title="Training lab" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Training lab" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -15,7 +15,6 @@ Write a program that calculates whether **the firm can finish the project on tim
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

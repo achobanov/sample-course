@@ -5,16 +5,7 @@ To verified our knowledge of conditional constructions `if` and `if-else`, we wi
 
 ## Problem: bonus score
 
-You have an **integer** - the number of points. **Bonus scores** are charged on it, according to the rules described below. Write a program that calculates **bonus scores** for this figure and **total points** with bonuses.- Ако числото е **до 100** включително, бонус точките са 5.
-
-- If the number is **up to 100** including, bonus points are 5.
-- If the number is **larger than 100**, bonus points are **20%** from the number.
-- If the number is **larger than 1000**, bonus points are **10%** from the number.
-- Additional bonus points (accrues separately from the previous ones):
-- for **even** number -> + 1 p.
-- for number, that **ends with 5** -> + 2 p.
-
-[code-task title="Bonus score" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Bonus score" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var num = int.Parse(Console.ReadLine());
@@ -23,8 +14,17 @@ var bonusScore = 0.0;
 [/code-editor]
 
 [task-description]
-We can calculate the basic and additional bonus points with a series of `if-else-if-else` conditions. For **the main bonus points we have 3 cases** (when the entered number is up to 100, between 100 and 1000 and larger than 1000), and for **extra bonus points - 2 more cases** (when the number is even and odd).
+You have an **integer** - the number of points. **Bonus scores** are charged on it, according to the rules described below. Write a program that calculates **bonus scores** for this figure and **total points** with bonuses.- Ако числото е **до 100** включително, бонус точките са 5.
+
+- If the number is **up to 100** including, bonus points are 5.
+- If the number is **larger than 100**, bonus points are **20%** from the number.
+- If the number is **larger than 1000**, bonus points are **10%** from the number.
+- Additional bonus points (accrues separately from the previous ones):
+- for **even** number -> + 1 p.
+- for number, that **ends with 5** -> + 2 p.
 [/task-description]
+
+[code-io /]
 [/code-task]
 
 ### Sample Input and Output
@@ -56,7 +56,7 @@ Test your solution  here: [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Problem: sum seconds
 
-[code-task title="Sum seconds" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Sum seconds" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -66,7 +66,6 @@ Three athletes finish for a few **seconds** (between **1** and **50**). Write a 
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -96,6 +95,22 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: metric converter
 
+[code-task title="Metric converter" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
+[code-editor language=csharp]
+var size = double.Parse(Console.ReadLine());
+var sourceMetric = Console.ReadLine().ToLower();
+var destMetric = Console.ReadLine().ToLower();
+
+if (sourceMetric == "km")
+{
+    size = size / 0.001;
+}
+
+// TODO: Check the other metrics
+[/code-editor]
+
+[task-description]
 Write a program that **convert a distance** between the following **8 units of measure**: `m`, `mm`,` cm`, `mi`, `in`, `km`,` ft `,` yd`. Use the below table:
 
 |  Input measure  |       Output measure      |
@@ -113,26 +128,9 @@ You have three input lines:
 - First line: number for converting.
 - Second line: input unit.
 - Third line: output unit (the result).
-
-[code-task title="Metric converter" executionStrategy="csharp-dot-net-core-code"]
-
-[code-editor language=csharp]
-var size = double.Parse(Console.ReadLine());
-var sourceMetric = Console.ReadLine().ToLower();
-var destMetric = Console.ReadLine().ToLower();
-
-if (sourceMetric == "km")
-{
-    size = size / 0.001;
-}
-
-// TODO: Check the other metrics
-[/code-editor]
-
-[task-description]
-We read the input data, and we can add `.ToLower()` method when we read the measure units, which will make all letters small.
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 ## Sample Input and Output

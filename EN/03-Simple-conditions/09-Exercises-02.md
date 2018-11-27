@@ -23,7 +23,7 @@ Now we have empty Visual Studio Solution (no projects in it):
 [slide]
 # Problem: excellent grade
 
-[code-task title="Excellent grade" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent Grade" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var grade = double.Parse(Console.ReadLine());
@@ -34,7 +34,6 @@ The first exercise for this topic is to write a **console program** that **input
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -82,7 +81,8 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: excellent grade or not
 
-[code-task title="Excellent grade or Not" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Excellent Grade or Not" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
 [code-editor language=csharp]
 var grade = double.Parse(Console.ReadLine());
 [/code-editor]
@@ -92,7 +92,6 @@ The next exercise from this topic is to write a **console program** that **input
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -142,9 +141,9 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: even or odd
 
-[code-task title="Even or odd" executionStrategy="csharp-dot-net-core-code"]
-[code-editor language=csharp]
+[code-task title="Even or Odd" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
+[code-editor language=csharp]
 [/code-editor]
 
 [task-description]
@@ -180,7 +179,8 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: Greater number
 
-[code-task title="Greater number" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Greater Number" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
 [code-editor language=csharp]
 [/code-editor]
 
@@ -189,7 +189,6 @@ Write a program that inputs **two integers** and prints the larger one.
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -219,7 +218,8 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: digit in english
 
-[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Digit in English" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
 [code-editor language=csharp]
 [/code-editor]
 
@@ -230,7 +230,6 @@ You can use a series of `if-else` conditions to create the possible **11 cases**
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -254,7 +253,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: guess the password
 
-[code-task title="Guess the password" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Guess the Password" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -264,7 +263,6 @@ Write a program that **inputs a password** (one line with random text) and check
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -287,7 +285,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: number from 100 to 200
 
-[code-task title="Number from 100 to 200" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Number From 100 to 200" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -297,7 +295,6 @@ Write a program that **inputs an integer** and checks if it is **below 100**, **
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -316,7 +313,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal words
 
-[code-task title="Equal words" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Equal Words" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -326,7 +323,6 @@ Write a program that **inputs two words** and checks if they are the same. Do no
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -351,7 +347,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: speed info
 
-[code-task title="Speed info" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Speed Info" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -361,7 +357,6 @@ Write a program that **inputs the speed** (decimal number) and prints **speed in
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -382,7 +377,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: area of figures
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -400,7 +395,6 @@ Round the result up to the **third digit after the decimal point**.
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -421,7 +415,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 # Problem: time plus 15 minutes
 
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Time Plus 15 Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -431,7 +425,6 @@ Write a program that **inputs hours and minutes** from a 24-hour day and calcula
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -456,7 +449,8 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: equal numbers
 
-[code-task title="Equal numbers" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Equal Numbers" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
 [code-editor language=csharp]
 [/code-editor]
 
@@ -465,7 +459,6 @@ Write a program that inputs **3 numbers** and prints whether they are the same (
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -484,7 +477,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: \* number to words
 
-[code-task title="Number to words" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Number to Words" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -494,7 +487,6 @@ Write a program that converts a number in the range of [**0 ... 100**] into text
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output

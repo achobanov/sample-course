@@ -1,7 +1,7 @@
 [slide]
 # Problem: Daily Earnings
 
-[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Daily Earnings" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -11,7 +11,6 @@ Ivan is a programmer in an **American company** and he **works** at home **appro
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

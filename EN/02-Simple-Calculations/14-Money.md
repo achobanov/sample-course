@@ -1,7 +1,7 @@
 [slide]
 # Problem: Money
 
-[code-task title="Money" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Money" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -17,7 +17,6 @@ The exchange office has **commission from 0 to 5 percent from the final sum in e
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data

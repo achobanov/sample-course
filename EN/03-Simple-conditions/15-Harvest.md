@@ -1,7 +1,7 @@
 [slide]
 # Problem: Harvest
 
-[code-task title="Harvest" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Harvest" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -13,7 +13,6 @@ Write **a program** that **calculates how much wine can be produced** and **whet
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Input Data
