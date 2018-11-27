@@ -56,7 +56,7 @@ Test your solution  here: [anchor href=https://judge.softuni.bg/Contests/Practic
 [slide]
 # Problem: sum seconds
 
-[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Sum seconds" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 [/code-editor]

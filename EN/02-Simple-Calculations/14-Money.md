@@ -96,5 +96,5 @@ This code would print a correct result, but it is **hard to read**. It won't be 
 
 ## Test in the Judge system
 
-Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice/Index/505#3]https://judge.softuni.bg/Contests/Practice/Index/505#3[/anchor]
+Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice/Index/505#3]https://judge.softuni.bg/Contests/Practice/Index/505#3[/anchor].
 [/slide]
