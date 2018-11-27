@@ -65,7 +65,7 @@ Let's start with a very simple example of a short C# program.
 
 ## Example: a program that plays the musical note "la"
 
-[code-task title="Program that plays the musical note "la"" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Program That Plays the Musical Note "la"" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 Console.Beep(432, 500);
@@ -83,7 +83,7 @@ In a short time we will find out how we can execute this command and hear the so
 [slide]
 # Example: a program that plays a sequence of musical notes
 
-[code-task title="Program that plays a sequence of musical notes" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Program That Plays a Sequence of Musical Notes" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 for (i = 200; i <= 4000; i += 200)
@@ -106,7 +106,7 @@ How do iterations (cycles) work in programming, we will learn in the **chapter "
 [slide]
 # Example: a program that converts from leva to euro
 
-[code-task title="Program that converts from leva to euro" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Program That Converts From Leva to Euro" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
 var leva = int.Parse(Console.ReadLine());
