@@ -90,16 +90,16 @@ Tets your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: * point in the figure
 
-The figure consists of **6 blocks with size h \* h**, placed as in the figure. The lower left angle of the building is on position {0, 0}. The upper right angle of the figure is on position {**2\*h**, **4\*h**}. The coordinates given in the figure are for **h = 2**:
-
-[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-4-images/13.Point-in-the-figure-01.png alt="Code" /]
-
 [code-task title="Point in the Figure" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
+The figure consists of **6 blocks with size h \* h**, placed as in the figure. The lower left angle of the building is on position {0, 0}. The upper right angle of the figure is on position {**2\*h**, **4\*h**}. The coordinates given in the figure are for **h = 2**:
+
+[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-4-images/13.Point-in-the-figure-01.png alt="Code" /]
+
 Write a program that enters a whole number **h** and the coordinates of a given **point {x, y}** (whole numbers) and prints whether the point is inside the figure(**inside**), outside of the figure (**outside**) or on any of the borders of the figure (**border**).
 [/task-description]
 

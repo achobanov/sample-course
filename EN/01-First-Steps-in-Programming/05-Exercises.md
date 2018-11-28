@@ -12,7 +12,7 @@ Welcome to the exercises. Now we are going to write a couple of console applicat
 
 [task-description]
 Write a C# console program, which **calculates** and **prints** the value of the following numerical expression:
-<p align="center"> (3522 + 52353) * 23 - (2336 * 501 + 23432 - 6743) * 3</p>
+(3522 + 52353) * 23 - (2336 * 501 + 23432 - 6743) * 3
 [/task-description]
 
 [code-io /]
