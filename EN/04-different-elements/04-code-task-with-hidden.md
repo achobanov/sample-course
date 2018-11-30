@@ -1,7 +1,7 @@
 [slide]
-# [code-task] with hidden code
+# code-task with hidden code
 
-[code-task title='Print out Hello World' executionStrategy='csharp-dot-net-core-code' requiresInput]
+[code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
 [code-editor language=csharp]
 ```
 using System;
