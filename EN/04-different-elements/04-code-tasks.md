@@ -18,10 +18,11 @@ public class App
 }
 ```
 
+[/code-editor]
+
 [task-description]
 Sample
 [/task-description]
-[/code-editor]
 [/code-task]
 
 [/slide]
