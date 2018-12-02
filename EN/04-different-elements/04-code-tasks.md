@@ -23,6 +23,7 @@ public class App
 [task-description]
 Sample
 [/task-description]
+
 [/code-task]
 
 [/slide]
