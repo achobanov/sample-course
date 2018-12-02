@@ -18,6 +18,9 @@ public class App
 }
 ```
 
+[task-description]
+Sample
+[/task-description]
 [/code-editor]
 [/code-task]
 
@@ -49,7 +52,13 @@ public class App
 [/hidden]
 ```
 [/code-editor]
+
+[task-description]
+Sample
+[/task-description]
+
 [/code-task]
+
 [/slide]
 
 [slide]
