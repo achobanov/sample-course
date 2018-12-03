@@ -7,4 +7,3 @@ First Steps in Programming
 Mandatory
 
 # Cover
-![](img/lesson-cover.png)
