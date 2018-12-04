@@ -43,7 +43,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 
 When we have **only one command** in the body of the ** if construction**, we can **skip the curly brackets**, indicating the conditional operator body. When we want to execute **block of code** (group of commands), curly brackets are **required**. In case we drop them, **only the first line**  after **if clause** will be executed.
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td>It's a good practice to <strong>always put curly braces,</strong> because it makes our code more readable and clean.</td></tr></table>
+It's a good practice to **always put curly braces**, because it makes our code more readable and clean.
 
 Here is an example where dropping curly braces leads to confusion:
 

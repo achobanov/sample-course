@@ -150,7 +150,7 @@ Let us test with floating-point numbers, for example with **2.5**:
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/02.Inches-to-centimeters-10.png alt="Console" /]
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td>Depending on the regional settings of the operational system, it is possible instead of using a <b>decimal point </b> (US settings), to be used a <b>decimal comma</b> (BG settings).</td></tr></table>
+Depending on the regional settings of the operational system, it is possible instead of using a **decimal point** (US settings), to be used a **decimal comma** (BG settings).
 
 If the program expects a decimal point and instead a number with a decimal comma is entered or the opposite (to enter a decimal point, when a decimal comma is expected), the following error will be received:
 

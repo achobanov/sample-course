@@ -15,8 +15,7 @@ if (condition1)
 }
 ```
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td>Remember that it is not a good practice to write <strong>deeply nested conditional statements</strong> (with more than three levels of nesting). Aviod nesting of more than three conditional statements inside one another. This complicates the code and makes its reading and understanding difficult.</td>
-</tr></table>
+Remember that it is not a good practice to write **deeply nested conditional statements** (with more than three levels of nesting). Aviod nesting of more than three conditional statements inside one another. This complicates the code and makes its reading and understanding difficult.
 
 ## Switch-case Conditions
 

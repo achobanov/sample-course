@@ -163,7 +163,5 @@ To calculate the commission according to the city and volume of sales, we need a
 
 Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice/Index/508#7]https://judge.softuni.bg/Contests/Practice/Index/508#7[/anchor].
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td><b>It is a good practice</b> to use <b>blocks</b>, which we <b>enclose</b> with curly braces <b><code>{ }</code></b> after <b><code>if</code></b> and <b><code>else</code></b>. Also, it is recommended during writing to <b>move aside</b> the code <b>after <code>if</code> and <code>else</code></b> with a single tabulation <b>inward</b>, in order to make the code more easily readable.</td>
-</tr></table>
-
+**It is a good practice** to use **blocks**, which we **enclose* with curly braces `{ }` after `if` and `else`. Also, it is recommended during writing to **move aside** the code **after `if` and `else`** with a single tabulation **inward**, in order to make the code more easily readable.
 [/slide]

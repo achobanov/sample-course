@@ -64,8 +64,7 @@ Let's write a program that prints **the day of the week** depending on the **giv
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-4-images/09.Day-of-week-01.png alt="Code" /]
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td><b>A good practice</b> is to put on <b>first</b> place  those <b><code>case</code> statements</b>, which process <b>the most common situations</b>, and the <b><code>case</code> constructions</b>, processing <b>the more rear situations</b> to leave at <b>the end, before  the <code>default</code> construction</b>. Another <b>good practice</b> is to <b>arrange the <code>case</code> labels</b> in <b>ascending order</b>, no mather is they are integral or symbolic.</td>
-</tr></table>
+**A good practice** is to put on **first** place  those `case` **statement**, which process **the most common situations**, and the `case` **constructions**, processing **the more rear situations** to leave at **the end, before  the `default` construction**. Another **good practice** is to **arrange the `case` labels** in **ascending order**, no mather is they are integral or symbolic.
 
 ## Testing in the Judge System
 

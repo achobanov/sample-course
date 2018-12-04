@@ -62,8 +62,7 @@ While reading carefully the requirements, we understand that we expect **two** r
 
 [image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-4-2-images/02.Trip-01.png alt="Code" /]
 
-<table><tr><td><img src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/alert-icon.png" style="max-width:50px" /></td><td>Always take into consideration what **value type** is passed in the input data, as well as what type these need to be converted to, in order for the program conditions to work properly!</td>
-</tr></table>
+Always take into consideration what **value type** is passed in the input data, as well as what type these need to be converted to, in order for the program conditions to work properly!
 
 **Example**: When you need to do money calculations in a task, use `decimal` for higher level of accuracy.
 
