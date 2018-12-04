@@ -21,5 +21,6 @@ Beginner
  - Simona Simeonova, training lead @ SoftUni
 
 # Cover
-
+ ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 # Icon
+<!-- ![](img/course-icon.png) -->
