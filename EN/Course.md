@@ -21,6 +21,6 @@ Beginner
  - Simona Simeonova, training lead @ SoftUni
 
 # Cover
-![](img/course-icon.png)
+
 # Icon
-<!-- ![](img/course-icon.png) -->
+
