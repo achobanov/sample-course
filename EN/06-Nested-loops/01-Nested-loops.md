@@ -41,9 +41,6 @@ Print in the console a rectangle of **10 x 10** stars.
 **********
 **********
 ```
-|  Input |   Output   |
-|--------|------------|
-| (none) |<code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code><br><code>\*\*\*\*\*\*\*\*\*\*</code>|
 
 ## Hints and Guidelines
 
@@ -72,32 +69,40 @@ Write a program, which gets a positive integer **n** and prints in the console *
 [/code-task]
 
 ## Input
+
 2
 
 ## Output
+
+```csharp
 **
 **
+```
 
 ## Input
+
 3
 
 ## Output
+
+```csharp
 ***
 ***
 ***
+```
 
 ## Input
+
 4
 
 ## Output
-****
-****
-****
-****
 
-|Input|                Output                |Input|                              Output                             |Input|Output|
-|-----|--------------------------------------|-----|-----------------------------------------------------------------|-----|------|
-|  2  |<code>\*\*</code><br><code>\*\*</code>|  3  |<code>\*\*\*</code><br><code>\*\*\*</code><br><code>\*\*\*</code>|  4  |<code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code>|
+```csharp
+****
+****
+****
+****
+```
 
 ## Hints and Guidelines
 
@@ -134,9 +139,40 @@ Print in the console a square of **N x N** stars:
 [code-io /]
 [/code-task]
 
-|Input|                 Output                 |Input|                                 Output                                |Input|Output|
-|-----|----------------------------------------|-----|-----------------------------------------------------------------------|-----|------|
-|  2  |<code>\* \*</code><br><code>\* \*</code>|  3  |<code>\* \* \*</code><br><code>\* \* \*</code><br><code>\* \* \*</code>|  4  |<code>\* \* \* \*</code><br><code>\* \* \* \*</code><br><code>\* \* \* \*</code><br><code>\* \* \* \*</code>|
+## Input
+
+2
+
+## Output
+
+```csharp
+* *
+* *
+```
+
+## Input
+
+3
+
+## Output
+
+```csharp
+* * *
+* * *
+* * *
+```
+
+## Input
+
+4
+
+## Output
+
+```csharp
+* * * *
+* * * *
+* * * *
+```
 
 ## Hints and Guidelines
 
@@ -165,9 +201,44 @@ Write a program , which takes the number **n** and prints **a triangle of dollar
 [/code-task]
 
 
-|Input|                         Output                         |Input|Output|Input|Output|
-|-----|--------------------------------------------------------|-----|------|-----|------|
-|  3  |<code>$</code><br><code>$ $</code><br><code>$ $ $</code>|  4  |<code>$</code><br><code>$ $</code><br><code>$ $ $</code><br><code>$ $ $ $</code>|  5  |<code>$</code><br><code>$ $</code><br><code>$ $ $</code><br><code>$ $ $ $</code><br><code>$ $ $ $ $</code>|
+## Input
+
+3
+
+## Output
+
+```csharp
+$
+$ $
+$ $ $
+```
+
+## Input
+
+4
+
+## Output
+
+```csharp
+$
+$ $
+$ $ $
+$ $ $ $
+```
+
+## Input
+
+5
+
+## Output
+
+```csharp
+$
+$ $
+$ $ $
+$ $ $ $
+$ $ $ $ $
+```
 
 ## Hints and Guidelines
 
@@ -195,6 +266,44 @@ Write a program, which takes a positive integer **n** and draws on the console *
 [code-io /]
 [/code-task]
  
+## Input
+
+3
+
+## Output
+
+```csharp
++ - +
+| - |
++ - +
+```
+
+## Input
+
+4
+
+## Output
+
+```csharp
++ - - +
+| - - |
+| - - |
++ - - +
+```
+
+## Input
+
+5
+
+## Output
+
+```csharp
++ - - - +
+| - - - |
+| - - - |
+| - - - |
++ - - - +
+```
 |Input|                                  Output                                |Input|    Output    |
 |-----|------------------------------------------------------------------------|-----|--------------|
 |  3  |<code>+ - +</code><br><code>&#124; - &#124;</code><br><code>+ - +</code>|  4  |<code>+ - - +</code><br><code>&#124; - - &#124;</code><br><code>&#124; - - &#124;</code><br><code>+ - - +</code>|
@@ -235,7 +344,57 @@ Write a program, which takes a positive integer **n** and prints **a rhombus of 
 [code-io /]
 [/code-task]
 
+## Input
 
+1
+
+## Output
+
+```csharp
+*
+```
+
+## Input
+
+2
+
+## Output
+
+```csharp
+ * 
+* *
+ *
+```
+
+## Input
+
+3
+
+## Output
+
+```csharp
+  * 
+ * *
+* * *
+ * *
+  *
+```
+
+## Input
+
+4
+
+## Output
+
+```csharp
+   * 
+  * *
+ * * *
+* * * *
+ * * * 
+  * *
+   *
+```
 |Input|     Output    |Input|                                         Output                                          |
 |-----|---------------|-----|-----------------------------------------------------------------------------------------|
 |  1  |<code>\*</code>|  2  |<code>&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;</code><br>|
@@ -276,6 +435,42 @@ Write a program, which takes a number **n** (1 ≤ n ≤ 100) and prints a Chris
 
 [code-io /]
 [/code-task]
+
+## Input
+
+1
+
+## Output
+
+```csharp
+  |  
+* | *
+```
+
+## Input
+
+2
+
+## Output
+
+```csharp
+   |  
+ * | *
+** | **
+```
+
+## Input
+
+3
+
+## Output
+
+```csharp
+    |  
+  * | *
+ ** | **
+*** | ***
+```
 
 |Input|                                        Output                                    |Input|     Output     |
 |-----|----------------------------------------------------------------------------------|-----|----------------|
