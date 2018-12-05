@@ -246,12 +246,6 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: trapezoid area
 
-Write a program that reads three numbers from the console **b1, b2 and h and calculates the area of a trapezoid** with bases **b1 and b2 and height h. The formula for trapezoid area is  (b1 + b2) * h / 2**.
-
-In the figure bellow is shown a trapezoid with bases 8 and 13 and height 7. It has an area **(8 + 13) * 7 / 2 = 73.5**.
-
-[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/05.Trapezoid-area-01.png alt="Trapezoid" /]
-
 [code-task title="Trapezoid area" executionStrategy="csharp-dot-net-core-code"]
 
 [code-editor language=csharp]
@@ -260,7 +254,11 @@ var b1 = double.Parse(Console.ReadLine());
 [/code-editor]
 
 [task-description]
-Multiplication in programming is performed by `*` operator.
+Write a program that reads three numbers from the console **b1, b2 and h and calculates the area of a trapezoid** with bases **b1 and b2 and height h. The formula for trapezoid area is  (b1 + b2) * h / 2**.
+
+In the figure bellow is shown a trapezoid with bases 8 and 13 and height 7. It has an area **(8 + 13) * 7 / 2 = 73.5**.
+
+[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/05.Trapezoid-area-01.png alt="Trapezoid" /]
 [/task-description]
 
 [code-io /]
@@ -284,16 +282,13 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: circle area and perimeter
 
-Write a program that reads from the console a **number r** and calculates and prints **the circle's area and perimeter** with **radius r**.
-
 [code-task title="Print out Hello World" executionStrategy="csharp-dot-net-core-code" requiresInput]
+
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
-        For the calculations you may use the following formulas:
-        -	`Area = Math.PI * r * r`.
-        -	`Perimeter = 2 * Math.PI * r`.
+Write a program that reads from the console a **number r** and calculates and prints **the circle's area and perimeter** with **radius r**.
 [/task-description]
 
 [code-io /]
@@ -314,17 +309,15 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: rectangle area in a coordinate plane
 
-**A Rectangle** is given with the **coordinates** of both of its opposite angles (x1, y1) – (x2, y2). Calculate its  **area and perimeter**. **The input** is read from the console. The numbers **x1, y1, x2 and y2** are given one per line. **The output** is printed on the console and it has to contain two lines, each with one number - the area and the perimeter.
-
-[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/07.Rectangle-area-01.png alt="Rectangle Figure" /]
-
 [code-task title="Rectangle area in a coordinate plane" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
 
 [task-description]
-**The output** is printed on the console and it has to contain two lines, each with one number - the area and the perimeter.
+**A Rectangle** is given with the **coordinates** of both of its opposite angles (x1, y1) – (x2, y2). Calculate its  **area and perimeter**. **The input** is read from the console. The numbers **x1, y1, x2 and y2** are given one per line. **The output** is printed on the console and it has to contain two lines, each with one number - the area and the perimeter.
+
+[image src=https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/assets/chapter-2-images/07.Rectangle-area-01.png alt="Rectangle Figure" /]
 [/task-description]
 
 [code-io /]
@@ -408,7 +401,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: console converter - from radians to degrees
 
-[code-task title="Console converter - from radians to degrees" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Console Converter - From Radians to Degrees" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]

@@ -5,7 +5,7 @@ Now, after having revised how to make simple calculations and how to read and pr
 
 ## Problem: Training Lab
 
-[code-task title="Training lab" executionStrategy="csharp-dot-net-core-code" requiresInput]
+[code-task title="Training Lab" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]

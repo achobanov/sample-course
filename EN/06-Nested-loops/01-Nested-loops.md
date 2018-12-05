@@ -359,7 +359,7 @@ Write a program, which takes a positive integer **n** and prints **a rhombus of 
 
 ## Output
 ```csharp
-  * 
+ * 
 * *
  *
 ```
@@ -370,7 +370,7 @@ Write a program, which takes a positive integer **n** and prints **a rhombus of 
 
 ## Output
 ```csharp
-    * 
+  * 
  * *
 * * *
  * *

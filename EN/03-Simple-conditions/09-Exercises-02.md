@@ -414,7 +414,6 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # Problem: time plus 15 minutes
 
-
 [code-task title="Time Plus 15 Minutes" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]

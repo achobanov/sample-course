@@ -96,6 +96,7 @@ Console.WriteLine("**");
 Write a C# console program, which **prints a triangle of 55 stars** on 10 rows.
 [/task-description]
 
+[code-io /]
 [/code-task]
 
 
@@ -126,7 +127,7 @@ Try to **better your solution**, so that it doesn't have many repeating commands
 [slide]
 # Problem: rectangle area
 
-[code-task title="Rectangle Area" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Rectangle Area" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 [/code-editor]
@@ -136,7 +137,6 @@ Write a C# program, which **reads** from the console **two numbers, a and b**, *
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
@@ -173,7 +173,7 @@ Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice
 [slide]
 # \* Problem: a square of stars
 
-[code-task title="Square of Stars" executionStrategy="csharp-dot-net-core-code"]
+[code-task title="Square of Stars" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
 var n = int.Parse(Console.ReadLine());
@@ -185,7 +185,6 @@ Write a C# console program, which **reads** from the console **a whole positive 
 [/task-description]
 
 [code-io /]
-
 [/code-task]
 
 ## Sample Input and Output
