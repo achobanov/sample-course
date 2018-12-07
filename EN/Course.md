@@ -1,7 +1,6 @@
-# Title
-Introduction to Programming with **C#**
+# Introduction to Programming with **C#**
 
-# Description
+## Description
 This course teaches the **basics of coding**, such as:
  - Using variables and expressions
  - Reading and printing at the console
@@ -10,17 +9,12 @@ This course teaches the **basics of coding**, such as:
  - Writing control-flow logic: combining conditions and loops
  - Problem solving: program design and implementation
 
-# Language
+## Language
 English
 
-# Level
+## Level
 Beginner
 
-# Authors
+## Authors
  - Svetlin Nakov, principal technical trainer @ SoftUni
  - Simona Simeonova, training lead @ SoftUni
-
-# Cover
-
-# Icon
-
