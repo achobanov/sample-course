@@ -32,17 +32,13 @@ Sample
 
 # Live code example
 ```csharp must-run title="Print out Hello World" executionStrategy="csharp-dot-net-core-code"
-[hidden]
 using System;
 public class App
 {
     public static void Main()
     {
-[/hidden]   
         Console.WriteLine("Hello");
-[hidden]
     }
 }
-[/hidden]
 ```
 [/slide]
