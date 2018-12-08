@@ -1,4 +1,4 @@
-# Introduction to Programming with **C#**
+# Introduction to Programming with C#
 
 ## Description
 This course teaches the **basics of coding**, such as:
