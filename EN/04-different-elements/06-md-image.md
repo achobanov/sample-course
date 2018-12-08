@@ -15,5 +15,6 @@ text
 [anchor href=http://google.com]text[/anchor]
 **This is valid**
 _and this_
+[/unknown-element]
 
 [/slide]
