@@ -37,9 +37,10 @@ Create C# console application that prints on the screen for centuries, years and
 [code-task title="Centuries - Example" executionStrategy="csharp-dot-net-core-code" requiresInput]
 
 [code-editor language=csharp]
-```
+```csharp
 using System;
-namespace Centuries
+
+namespace App
 {
     class Program
     {
