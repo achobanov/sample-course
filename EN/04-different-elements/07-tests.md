@@ -68,7 +68,7 @@ Print on the screen how many years, days and hours of equal 20 centuries.
 **Methods** are **named pieces of code** that can be invoked later
 
 Sample method **definition**:
-```
+```text
 static void PrintHeader()
 {
   Console.WriteLine("----------");
