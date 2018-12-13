@@ -10,6 +10,8 @@
 
 # Single self-closing invalid element
 
+[invalid /]
+
 [/slide]
 
 [slide]
