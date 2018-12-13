@@ -14,12 +14,25 @@
 
 [slide]
 
-# Invalid element inside valid element
+# Valid element inside invalid element
+
+[invalid] [image src=http://some-image.com/image.png /]
+
+[/invalid]
 
 [/slide]
 
 [slide]
 
-# Valid element inside invalid element
+# Markdown inside invalid element
+
+[invalid-element]
+
+## Heading
+
+- list
+- items
+
+[/invalid-element]
 
 [/slide]
