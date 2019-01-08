@@ -34,3 +34,9 @@ Test the code from the example locally. Try entering different grades, for examp
 
 Test your solution here: [anchor href=https://judge.softuni.bg/Contests/Practice/Index/506#0]https://judge.softuni.bg/Contests/Practice/Index/506#0[/anchor].
 [/slide]
+
+non-slide content
+
+[slide]
+slide content
+[/slide]
