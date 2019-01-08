@@ -1,1 +1,1 @@
-Invalid content - not a slide component.
+[slide]Invalid content - not a slide component.[/slide]
